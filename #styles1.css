@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff6600, #ff9900); /* Shining color gradient */
+    height: 100vh; /* Ensure the background covers the entire viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.login-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+.login-buttons button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.login-buttons .google-btn {
+    background-color: #000000;
+}
+.login-buttons .facebook-btn {
+    background-color: #000000;
+}
+.login-buttons .twitter-btn {
+    background-color: #000000;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff99cc, #800080); /* Pink to purple gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.login-link a {
+    text-decoration: none;
+    color: #333;
+}
+/* Add some basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #0366d6; /* Set link color */
+}
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-container input[type=submit] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-container input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.description-section {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+.description-section h2 {
+    margin-top: 0;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
